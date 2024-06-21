@@ -1,0 +1,455 @@
+<HTML>
+	<HEAD>
+		<TITLE>URBAN THREADS BAZAAR</TITLE>
+		<link rel="stylesheet" href="design.css">
+		<script src="store.js"></script>
+	</HEAD>
+
+	<BODY>
+	
+	<!--outer div-->
+		<div id = "cover">
+		<!--top div-->
+			<div id = "top">
+				<div id = "logo">
+					<img src="logo1.jpg" alt="" class="logo1">
+				</div>
+				<div id = "storename">
+					<label>URBAN</label><label class="threads">THREADS</label><label>BAZAAR</label>
+					<p class="tagline">WEAR WHO YOU ARE</p>
+				</div>
+			</div>
+			
+		<br>
+		<button class="adds" id="addd"><a href="STOCKS.html" target="_self">Add stocks</a></button>
+			<div id = "categogy">	
+				<p>JEANS:</p>
+				<div class = "categoryitems">
+					<div class = "items">
+						<div class = "image">
+							<img src="jeans1.jpg" alt="jean1"  class="jeanpic" onclick="toggleSize1()" id="img1">
+							
+						</div>
+						<div class = "order">
+							<p class="itemname">Hombres Jeans</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" max="10" id="qty1" min=0 class="quantity" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label class="stocks" id="stock1">10</label>
+							
+							<p class="stocks">price: ₱ 2, 000</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total1"> 0</span>
+							
+							<button class="placeorder" onclick="updateStock1()">add to cart</button>
+						</div>
+					</div>
+					<div class = "items" >
+						<div class = "image">
+							<img src="jeans2.jpg" alt="jean1" class="jeanpic" onclick="toggleSize2()" id="img2">
+						</div>
+						<div class = "order">
+							<p class="itemname">Kalamnan Mens </p>
+							<label class="stocks">qty: </label>
+							<input type= "number" max="10" id="qty2" min=0 class="quantity" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock2">10</label>
+							
+							<p class="stocks">price: ₱ 1, 200</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total2"> 0</span>
+							<button class="placeorder" onclick="updateStock2()">add to cart</button>
+						</div>
+					</div>
+					
+					<div class = "items">
+						<div class = "image">
+							<img src="jeans3.jpg" alt="jean1" class="jeanpic" onclick="toggleSize3()" id="img3">
+						</div>
+						<div class = "order">
+							<p class="itemname">Men Flap Pocket </p>
+							<label class="stocks">qty: </label>
+							<input type= "number" max="10" id="qty3" min=0 class="quantity" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock3">10</label>
+							
+							<p class="stocks">price: ₱ 1, 800</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total3"> 0</span>
+							<button class="placeorder" onclick="updateStock3()">add to cart</button>
+						</div>
+					</div>
+				
+					<div class = "items">
+					<div class = "image">
+						<img src="jeans4.jpg" alt="jean1" class="jeanpic" onclick="toggleSize4()" id="img4">
+						</div>
+						<div class = "order">
+							<p class="itemname">Homens Calca</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" max="10" id="qty4" min=0 class="quantity" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock4">10</label>
+							
+							<p class="stocks">price: ₱ 1, 500</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total4"> 0</span>
+							<button class="placeorder" onclick="updateStock4()">add to cart</button>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<!--items jeans end div-->
+			<br><br>
+			<!--items tshirt div-->
+			<div id = "categogy">	
+				<p>T-SHIRT:</p>
+				<div class = "categoryitems">
+					<div class = "items">
+						<div class = "image">
+							<img src="shirt1.jpg" alt="jean1" class="jeanpic" onclick="toggleSize5()" id="img5">
+						</div>
+						<div class = "order">
+							<p class="itemname">Homens Camiseta</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 max="10" id="qty5" class="quantity" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock5">10</label>
+							
+							<p class="stocks">price: ₱ 400</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total5"> 0</span>
+							<button class="placeorder" onclick="updateStock5()">add to cart</button>
+						</div>
+					</div>
+
+					<div class = "items">
+						<div class = "image">
+							<img src="shirt2.jpg" alt="jean1" class="jeanpic" onclick="toggleSize6()" id="img6">
+						</div>
+						<div class = "order">
+							<p class="itemname">Oversize Extended Neck</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" max="10" id="qty6" min=0 class="quantity" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock6">10</label>
+							
+							<p class="stocks">price: ₱ 500</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total6"> 0</span>
+							<button class="placeorder" onclick="updateStock6()">add to cart</button>
+						</div>
+					</div>
+				
+					<div class = "items">
+						<div class = "image">
+							<img src="shirt3.jpg" alt="jean1" class="jeanpic" onclick="toggleSize7()" id="img7">
+						</div>
+						<div class = "order">
+							<p class="itemname">Estilo</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 class="quantity" value="0" max="10" id="qty7">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock7">10</label>
+							
+							<p class="stocks">price: ₱ 850</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total7"> 0</span>
+							<button onclick="updateStock7()" class="placeorder">add to cart</button>
+						</div>
+					</div>
+
+					<div class = "items">
+					<div class = "image">
+						<img src="shirt4.jpg" alt="jean1" class="jeanpic" onclick="toggleSize8()" id="img8">
+						</div>
+						<div class = "order">
+							<p class="itemname">Camiseta Casual Maculina</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 class="quantity" id ="qty8" max="10" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock8">10</label>
+							
+							<p class="stocks">price: ₱ 800</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total8"> 0</span>
+							<button class="placeorder" onclick="updateStock8()">add to cart</button>
+						</div>
+					</div>
+		
+				</div>
+			</div>
+			<!--items tshirt end div-->
+			<br><br>
+			<!--items perfumes div-->
+			<div id = "categogy">	
+				<p>PERFUMES:</p>
+				<div class = "categoryitems">
+					<div class = "items">
+						<div class = "image">
+							<img src="perfume1.jpg" alt="jean1" class="jeanpic" onclick="toggleSize9()" id="img9">
+						</div>
+						<div class = "order">
+							<p class="itemname">Calvin Klein CK One Men</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" id="qty9" max="10" min=0 class="quantity" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock9">10</label>
+							
+							<p class="stocks">price: ₱ 3,000</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total9"> 0</span>
+							<button class="placeorder" onclick="updateStock9()">add to cart</button>
+						</div>
+					</div>
+
+					<div class = "items">
+						<div class = "image">
+							<img src="perfume2.jpg" alt="jean1" class="jeanpic" onclick="toggleSize10()" id="img10">
+						</div>
+						<div class = "order">
+							<p class="itemname">Dior Homme Intense</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 class="quantity" value="0" id="qty10" max="10">
+							<br>
+							<label for="stock10" class="stocks">Stocks:</label>
+							<label id="stock10" class="stocks">10</label>
+							
+							<p class="stocks">price: ₱ 6, 000</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total10"> 0</span>
+							<button class="placeorder" onclick="updateStock10()">add to cart</button>
+						</div>
+					</div>
+	
+
+					<div class = "items">
+						<div class = "image">
+							<img src="perfume3.jpg" alt="jean1" class="jeanpic" onclick="toggleSize11()" id="img11">
+						</div>
+						<div class = "order">
+							<p class="itemname">Dior Sauvage Eue De Parfum</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 class="quantity" value="0" id="qty11" max="10">
+							<br>
+							<label for="stock11" class="stocks">Stocks:</label>
+							<label class="stocks" id="stock11">10</label>
+							
+							<p class="stocks">price: ₱ 2, 000</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total11"> 0</span>
+							<button class="placeorder" onclick="updateStock11()">add to cart</button>
+						</div>
+					</div>
+				
+					<div class = "items">
+					<div class = "image">
+						<img src="perfume4.jpg" alt="jean1" class="jeanpic" onclick="toggleSize12()" id="img12">
+						</div>
+						<div class = "order">
+							<p class="itemname">Ralph Lauren Polo Blue</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 class="quantity" max="10" id="qty12" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock12">10</label>
+							
+							<p class="stocks">price: ₱ 5, 500</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total12"> 0</span>
+							<button class="placeorder" onclick="updateStock12()">add to cart</button>
+						</div>
+					</div>
+		
+				</div>
+			</div>
+			<!--items perfumes end div-->
+			<br><br>
+			<!--items sando div-->
+			<div id = "categogy">	
+				<p>SANDO:</p>
+				<div class = "categoryitems">
+					<div class = "items">
+						<div class = "image">
+							<img src="sando1.jpg" alt="jean1" class="jeanpic" onclick="toggleSize13()" id="img13">
+						</div>
+						<div class = "order">
+							<p class="itemname">Men Solid White Tank Top</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 class="quantity" max="10" id="qty13" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock13">10</label>
+						
+							<p class="stocks">price: ₱ 800</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total13"> 0</span>
+							<button class="placeorder" onclick="updateStock13()">add to cart</button>
+						</div>
+					</div>
+				
+					<div class = "items">
+						<div class = "image">
+							<img src="sando2.jpg" alt="jean1" class="jeanpic" onclick="toggleSize14()" id="img14">
+						</div>
+						<div class = "order">
+							<p class="itemname">Men Letter Graphic</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 class="quantity" max="10" id="qty14" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock14">10</label>
+							
+							<p class="stocks">price: ₱ 850</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total14"> 0</span>
+							<button class="placeorder" onclick="updateStock14()">add to cart</button>
+						</div>
+					</div>
+					
+					<div class = "items">
+						<div class = "image">
+							<img src="sando3.jpg" alt="jean1" class="jeanpic" onclick="toggleSize15()" id="img15">
+						</div>
+						<div class = "order">
+							<p class="itemname">Drawstring Hooded</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 class="quantity" max="10" id="qty15" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock15">10</label>
+							
+							<p class="stocks">price: ₱ 1, 200</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total15"> 0</span>
+							<button class="placeorder" onclick="updateStock15()">add to cart</button>
+						</div>
+					</div>
+					
+					<div class = "items">
+					<div class = "image">
+						<img src="sando4.jpg" alt="jean1" class="jeanpic" onclick="toggleSize16()" id="img16">
+						</div>
+						<div class = "order">
+							<p class="itemname">Graphic Patch Detail Contrast</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" max="10" id="qty16" min=0 class="quantity" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock16">10</label>
+							
+							<p class="stocks">price: ₱ 700</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total16"> 0</span>
+							<button class="placeorder" onclick="updateStock16()">add to cart</button>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+			<!--items sando end div-->
+			<br><br>
+			<!--items toys div-->
+			<div id = "categogy">	
+				<p>TOYS:</p>
+				<div class = "categoryitems">
+					<div class = "items">
+						<div class = "image">
+							<img src="toys1.jpg" alt="jean1" class="jeanpic" onclick="toggleSize17()" id="img17">
+						</div>
+						<div class = "order">
+							<p class="itemname">12 V Mercedes-Benz S63</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 class="quantity" max="10" id = "qty17" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock17">10</label>
+							
+							<p class="stocks">price: ₱ 19, 000</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total17"> 0</span>
+							<button class="placeorder" onclick="updateStock17()">add to cart</button>
+						</div>
+					</div>
+
+					<div class = "items">
+						<div class = "image">
+							<img src="toys2.jpg" alt="jean1" class="jeanpic" onclick="toggleSize18()" id="img18">
+						</div>
+						<div class = "order">
+							<p class="itemname">Push Car Mercedes AMG</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 class="quantity" max="10" id="qty18" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock18">10</label>
+							
+							<p class="stocks">price: ₱ 10, 000</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total18"> 0</span>
+							<button class="placeorder" onclick="updateStock18()">add to cart</button>
+						</div>
+					</div>
+	
+					<div class = "items">
+						<div class = "image">
+							<img src="toys3.jpg" alt="jean1" class="jeanpic" onclick="toggleSize19()" id="img19">
+						</div>
+						<div class = "order">
+							<p class="itemname">Rocky Mountain Instinct Carbon</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min=0 class="quantity" max="10" id="qty19" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label value="20" class="stocks" id="stock19">10</label>
+							
+							<p class="stocks">price: ₱ 26, 000</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total19"> 0</span>
+							<button class="placeorder" onclick="updateStock19()">add to cart</button>
+						</div>
+					</div>
+				
+					<div class = "items">
+					<div class = "image">
+						<img src="toys4.jpg" alt="jean1" class="jeanpic" onclick="toggleSize20()" id="img20">
+						</div>
+						<div class = "order">
+							<p class="itemname">Velocifero MAD Full Alloy</p>
+							<label class="stocks">qty: </label>
+							<input type= "number" min="0" class="quantity" max="10" id="qty20" value="0">
+							<br>
+							<label class="stocks">Stocks:</label>
+							<label class="stocks" min="0" id="stock20">10</label>
+							
+							<p class="stocks">price: ₱ 30, 000</p>
+							<span class="stocks">Total: ₱</span><span class="stocks" id="total20"> 0</span>
+							<button class="placeorder" onclick="updateStock20()">add to cart</button>
+						</div>
+					</div>
+			
+				</div>
+			</div>
+			<!--items toys end div-->
+			<div class="footer">
+				<div class="bottombuttons">
+				
+				<span id="totalname" class="ftotal">Total: ₱</span><span class="ftotal" id="fprice">0</span><br><br>
+				<button class="checkout" onclick="finalprice()">Checkout</button>
+
+				<select id="discountDropdown" onchange="applyDiscount()">
+					<option value="0">No Discount</option>
+					<option value="0.1">10% Student</option>
+					<option value="0.2">20% Senior</option>
+					<option value="0.3">30% PWD</option>
+					<!-- Add more options as needed -->
+				</select>
+				
+				
+
+				<!-- Add a button to apply the discount -->
+				<button class="adddiscount" onclick="applyDiscount()">Apply Discount</button>
+				<label id="discountedPriceLabel"></label>
+
+				<button class="scroll-to-top" onclick="scrollToTop()">^</button><br>
+				
+				
+			</div><br><br><br>
+				<center><span class="thankyou">THANK YOU FOR BUYING!!</span></center>
+				<center><a href="https://www.facebook.com/profile.php?id=100009420206762&mibextid=ZbWKwL" target="_blank" class="copyright">©olarveariel</a></center>
+			</div>
+			</div>
+		</div>
+	</BODY>
+</HTML>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stocks</title>
+    <link rel="stylesheet" href="stocks.css">
+    <script defer src="stocks.js"></script>
+</head>
+<body>
+    <div id="top">
+        <div id="logo">
+            <img src="logo1.jpg" alt="Logo" class="logo1">
+            
+        </div>
+		<div id = "storename">
+			<label>URBAN</label><label class="threads">THREADS</label><label>BAZAAR</label>
+			<p class="tagline">WEAR WHO YOU ARE</p>
+		</div>
+	
+    </div>
+	<div class="header">
+        <button class="back" ><a href="OLARVE_STORE.html"> Back to Main</a></button>
+    </div>
+    <div id="addstockstext">Add Stocks</div>
+    <div id="categogy">
+        <div class="categoryitems">
+            <div class="items">
+				<img src="jeans1.jpg" alt="jean1"  class="itempic">
+				<span class="name">Hombres Jeans</span>
+                <input type="number" id="stock1" class="quantity" >
+                <button class="addstock" onclick="addStock('stock1')">Add Stock</button>
+            </div>
+            <div class="items">
+				<img src="jeans2.jpg" alt="jean2"  class="itempic">
+				<span class="name">Kalamnan Mens</span>
+                <input type="number" id="stock2" class="quantity">
+                <button class="addstock" onclick="addStock('stock2')">Add Stock</button>
+            </div>
+            <div class="items">
+				<img src="jeans3.jpg" alt="jean3"  class="itempic">
+				<span class="name">Men Flap Pocket</span>
+                <input type="number" id="stock3" class="quantity" >
+                <button class="addstock" onclick="addStock('stock3')">Add Stock</button>
+            </div>
+			<div class="items">
+				<img src="jeans4.jpg" alt="jean4"  class="itempic">
+				<span class="name">Homens Calca</span>
+                <input type="number" id="stock4" class="quantity">
+                <button class="addstock" onclick="addStock('stock4')">Add Stock</button>
+            </div>
+			
+        </div>
+
+		<div class="categoryitems">
+            <div class="items">
+				<img src="shirt1.jpg" alt="jean2"  class="itempic">
+				<span class="name">Homens Camiseta</span>
+                <input type="number" id="stock5" class="quantity" >
+                <button class="addstock" onclick="addStock('stock5')">Add Stock</button>
+            </div>
+            <div class="items">
+				<img src="shirt2.jpg" alt="jean2"  class="itempic">
+				<span class="name">Oversize Extended Neck</span>
+                <input type="number" id="stock6" class="quantity">
+                <button class="addstock" onclick="addStock('stock6')">Add Stock</button>
+            </div>
+            <div class="items">
+				<img src="shirt3.jpg" alt="jean2"  class="itempic">
+				<span class="name">Estilo</span>
+                <input type="number" id="stock7" class="quantity" >
+                <button class="addstock" onclick="addStock('stock7')">Add Stock</button>
+            </div>
+			<div class="items">
+				<img src="shirt4.jpg" alt="jean2"  class="itempic">
+				<span class="name">Camiseta Casual Maculina</span>
+                <input type="number" id="stock8" class="quantity">
+                <button class="addstock" onclick="addStock('stock8')">Add Stock</button>
+            </div>
+			
+        </div>
+
+		<div class="categoryitems">
+            <div class="items">
+				<img src="perfume1.jpg" alt="jean2"  class="itempic">
+				<span class="name">Calvin Klein CK One Men</span>
+                <input type="number" id="stock9" class="quantity" >
+                <button class="addstock" onclick="addStock('stock9')">Add Stock</button>
+            </div>
+            <div class="items">
+				<img src="perfume2.jpg" alt="jean2"  class="itempic">
+				<span class="name">Doir Homme Intense</span>
+                <input type="number" id="stock10" class="quantity">
+                <button class="addstock" onclick="addStock('stock10')">Add Stock</button>
+            </div>
+            <div class="items">
+				<img src="perfume3.jpg" alt="jean2"  class="itempic">
+				<span class="name">Dior Sauvage</span>
+                <input type="number" id="stock11" class="quantity" >
+                <button class="addstock" onclick="addStock('stock11')">Add Stock</button>
+            </div>
+			<div class="items">
+				<img src="perfume4.jpg" alt="jean2"  class="itempic">
+				<span class="name">Ralph Lauren Polo Blue</span>
+                <input type="number" id="stock12" class="quantity">
+                <button class="addstock" onclick="addStock('stock12')">Add Stock</button>
+            </div>
+			
+        </div>
+
+		<div class="categoryitems">
+            <div class="items">
+				<img src="sando1.jpg" alt="jean2"  class="itempic">
+				<span class="name">Men Solid White Top</span>
+                <input type="number" id="stock13" class="quantity" >
+                <button class="addstock" onclick="addStock('stock13')">Add Stock</button>
+            </div>
+            <div class="items">
+				<img src="sando2.jpg" alt="jean2"  class="itempic">
+				<span class="name">Men Letter Graphic</span>
+                <input type="number" id="stock14" class="quantity">
+                <button class="addstock" onclick="addStock('stock14')">Add Stock</button>
+            </div>
+            <div class="items">
+				<img src="sando3.jpg" alt="jean2"  class="itempic">
+				<span class="name">Drawstring Hooded</span>
+                <input type="number" id="stock15" class="quantity" >
+                <button class="addstock" onclick="addStock('stock15')">Add Stock</button>
+            </div>
+			<div class="items">
+				<img src="sando4.jpg" alt="jean2"  class="itempic">
+				<span class="name">Graphic Patch</span>
+                <input type="number" id="stock16" class="quantity">
+                <button class="addstock" onclick="addStock('stock16')">Add Stock</button>
+            </div>
+			
+        </div>
+
+		<div class="categoryitems">
+            <div class="items">
+				<img src="toys1.jpg" alt="jean2"  class="itempic">
+				<span class="name">12V Mercedes-Benz</span>
+                <input type="number" id="stock17" class="quantity" >
+                <button class="addstock" onclick="addStock('stock17')">Add Stock</button>
+            </div>
+            <div class="items">
+				<img src="toys2.jpg" alt="jean2"  class="itempic">
+				<span class="name">Push Car Mercedes-Benz</span>
+                <input type="number" id="stock18" class="quantity">
+                <button class="addstock" onclick="addStock('stock18')">Add Stock</button>
+            </div>
+            <div class="items">
+				<img src="toys3.jpg" alt="jean2"  class="itempic">
+				<span class="name">MTB</span>
+                <input type="number" id="stock19" class="quantity" >
+                <button class="addstock" onclick="addStock('stock19')">Add Stock</button>
+            </div>
+			<div class="items">
+				<img src="toys4.jpg" alt="jean2"  class="itempic">
+				<span class="name">Velocity MAD Full Alloy</span>
+                <input type="number" id="stock20" class="quantity">
+                <button class="addstock" onclick="addStock('stock20')">Add Stock</button>
+            </div>
+			
+        </div>
+
+    </div>
+    
+</body>
+</html>
